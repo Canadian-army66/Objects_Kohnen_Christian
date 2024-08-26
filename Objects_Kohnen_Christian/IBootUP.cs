@@ -8,5 +8,8 @@ namespace Objects_Kohnen_Christian
 {
     internal interface IBootUP
     {
+
+        public bool IsOn { get; set; }
+        public void PowerOnOff();
     }
 }
