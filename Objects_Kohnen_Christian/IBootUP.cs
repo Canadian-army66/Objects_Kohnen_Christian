@@ -9,7 +9,7 @@ namespace Objects_Kohnen_Christian
     internal interface IBootUP
     {
 
-        public bool IsOn { get; set; }
-        public void PowerOnOff();
+        public bool IsOn { get; set; }  //creates an automatic bool
+        public void PowerOnOff();   //creates a method
     }
 }
